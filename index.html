@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Address Book</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="center-align">Funky Address Book</h1>
+    <form class="test">
+      <div class="row">
+        <div class="input-field col s3 offset-s3">
+          <input placeholder="First Name" id="first_name" type="text" class="validate" required>
+        </div>
+        <div class="input-field col s3">
+          <input placeholder="Last Name" id="last_name" type="text" class="validate" required>
+        </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s3 offset-s3">
+            <input placeholder="Phone Number" id="phone_number" type="number" class="validate" required>
+          </div>
+          <div class="input-field col s3">
+            <input placeholder="Email Address" id="email" type="email" class="validate">
+          </div>
+        </div>
+      <div class="row">
+          <button class="waves-effect waves-light btn col s2 offset-s5">Add Contact</button>
+      </div>
+    </form>
+    <div class="row">
+      <ul class="collection col s6 offset-s3 center-align">
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+i {
+  vertical-align: middle;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.close {
+  cursor: pointer;
+}
